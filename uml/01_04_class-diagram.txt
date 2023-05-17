@@ -1,0 +1,11 @@
+@startuml
+scale 1280x720
+
+class Robot{
+    - color
+    - x
+    - y
+    + move()
+}
+
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+scale 4096x4096
+
+class Piece{
+    -color
+    -type: King, Queen, Rook, Bishop, Knight, Pawn
+    -rank: A to F
+    -file: 1 to 8
+    -move()
+}
+
+@enduml

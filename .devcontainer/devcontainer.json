@@ -1,0 +1,17 @@
+{   
+  "features": {
+	},
+
+	"customizations": {
+		"vscode": {		
+			"extensions": [
+				"jebbs.plantuml"
+			]
+		}
+	},
+	"forwardPorts": [
+	],
+	"postCreateCommand": "export XDEBUG_MODE=off",
+	"portsAttributes": {
+	}
+}

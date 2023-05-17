@@ -1,0 +1,27 @@
+@startuml
+scale 4096x4096
+
+class Piece{
+    -color
+    -rank: A to F
+    -file: 1 to 8
+    +move()
+}
+
+class King{
+    +move()
+}
+
+class Queen{
+    +move()
+}
+
+class Rook{
+    +move()
+}
+
+Piece <|-- King
+Piece <|-- Queen
+Piece <|-- Rook
+
+@enduml
