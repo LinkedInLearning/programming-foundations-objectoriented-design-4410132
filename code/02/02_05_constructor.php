@@ -5,31 +5,12 @@ class Piece
     public $color = '';
     public $rank = 0;
     public $file = 0;
-}
 
-class King extends Piece
-{
-    function move()
-    {
-        // code goes here
+    public function __construct($color, $rank, $file) {
+      $this->color = $color;
+      $this->rank = $rank;
+      $this->file = $file;
     }
 }
 
-class Queen extends Piece
-{
-    function move()
-    {
-        // code goes here
-    }
-}
-
-class Bishop extends Piece
-{
-    function move()
-    {
-        // code goes here
-    }
-}
-
-$king = new King();
-print_r($king);
+$piece = new Piece('black', 4, 0);
