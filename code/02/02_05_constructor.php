@@ -2,15 +2,16 @@
 
 class Piece
 {
+    public $type  = '';
     public $color = '';
-    public $rank = 0;
-    public $file = 0;
+    public $rank  = 0;
+    public $file  = 0;
 
     public function __construct($type, $color, $rank, $file) {
-      $this->type = $type;
+      $this->type  = $type;
       $this->color = $color;
-      $this->rank = $rank;
-      $this->file = $file;
+      $this->rank  = $rank;
+      $this->file  = $file;
     }
 }
 
