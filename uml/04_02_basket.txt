@@ -1,0 +1,18 @@
+@startuml
+scale 4096x4096
+
+class Basket{
+    -items
+    +addItem()
+    +removeItem()
+    +getItems()
+    +getTotalPrice()
+}
+
+class Customer{
+    -basket
+    +getBasket()
+}
+
+
+@enduml
