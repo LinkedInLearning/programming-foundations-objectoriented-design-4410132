@@ -1,0 +1,14 @@
+@startuml
+scale 4096x4096
+
+class AudioFileReader{
+    -path
+    +read()
+}
+
+class AudioFileWriter{
+    -path
+    +read()
+}
+
+@enduml
